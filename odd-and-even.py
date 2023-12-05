@@ -10,7 +10,7 @@ if l%2==0:
 else:
     for i in range(1,l,2):
         out+=a[i]+a[i]
-        f+=1
+        f+=1   
 if f!=0:
     out+=a[l-1]
 print(out,end=" ")
